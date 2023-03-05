@@ -1,3 +1,11 @@
+## This was forked by Sartek
+
+forked to add basic realtime audio filtering for use as a digital 3-way crossover WIP currently only has subwoofer implemented with no midrange or tweeters
+modify submodule file \components\ESP32-A2DP\src\BluetoothA2DPSource.cpp
+with differences in submodules-modifications\BluetoothA2DPSource.cpp
+to bypass i2s write and use my version
+Original readme below
+
 # ESP32 A2DP sink with extra codecs
 
 Supports aptX, aptX-HD, aptX-LL, LDAC codecs.
